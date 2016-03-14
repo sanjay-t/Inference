@@ -83,7 +83,7 @@ class Driver:
                 print fobj.printPredicate()
 
 
-fname = "sample02.txt"
+fname = sys.argv[2]
 __builtins__.KB = {
         param.PREDICATE_TYPE['FACT']: {},
         param.PREDICATE_TYPE['CC']: {}
